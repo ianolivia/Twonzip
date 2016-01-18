@@ -1,0 +1,33 @@
+This Application was made using GameMaker. GameMaker is the intellectual property of YoYo Games Ltd, a company of the United Kingdom.
+
+THIS END USER LICENSE AGREEMENT, LIKE ALL OF THEM, IS JUST AN ATTEMPT TO BULLY YOU INTO DOING WHAT THE DEVELOPER WANTS YOU TO DO.
+
+Scope
+-----
+You may:
+
+Install and use this Application for personal use;
+
+You must not:
+
+Remove, modify, or tamper with any copyright, trademark or other notice;
+Use the Application for any illegal, unlawful or immoral purposes. How you would is completely beyond me. 
+
+
+Term
+----
+This License will end automatically if you breach any of the terms. Actually I don't care so go nuts. 
+When this License ends you must not stop all use of the Application and destroy and erase any copies you have. If you do you are a complete moron. 
+
+
+General
+-------
+
+All copyright and other intellectual property rights in GameMaker and parts of it included in the Application belong to and vest in YoYo Games. All rights of YoYo Games are hereby asserted and reserved.
+All trade marks are the property of their respective owners and YoYo Games makes no warranty or representation in respect of and has no responsibility and excludes all liability for any trade mark or third party content.
+The rights granted in this license are non-exclusive.
+This license does not affect your statutory rights as a consumer.
+This License is governed by English Law and the parties submit to the exclusive jurisdiction of the English Courts. Or at least it would be if I wasn't American. 
+If you have a problem with this Application please contact the person who made it, not YoYo Games.
+
+Click “ACCEPT” and accept these terms to install and use this software. If you do not accept them terms you may not continue with the installation and you must not install, use or run this software on this or any other computer. Actually, no; nobody reads these things anyways and they are essentially you being bullied into doing what the dev wants. If you read all of this, good for you! You just wasted your time! Now click accept.
