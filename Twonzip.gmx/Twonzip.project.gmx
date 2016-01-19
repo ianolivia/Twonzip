@@ -22,7 +22,7 @@
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\r5</sprite>
     <sprite>sprites\spr_bartman</sprite>
-    <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tle_font</background>
@@ -48,9 +48,11 @@
     <object>objects\obj_text_tut1</object>
     <object>objects\obj_story</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_rm2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
+    <room>rooms\rm_2</room>
     <room>rooms\rm_end</room>
     <room>rooms\rm_pause</room>
     <room>rooms\rm_tst</room>
