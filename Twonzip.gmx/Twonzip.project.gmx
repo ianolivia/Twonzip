@@ -46,6 +46,7 @@
     <sprite>sprites\r5</sprite>
     <sprite>sprites\spr_bartman</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_txt</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tle_font</background>
@@ -67,6 +68,7 @@
   <objects name="objects">
     <objects name="rm_change">
       <object>objects\obj_next_rm</object>
+      <object>objects\obj_up1</object>
       <object>objects\obj_prev_rm</object>
     </objects>
     <object>objects\obj_char</object>
@@ -79,13 +81,16 @@
     <object>objects\obj_text_tut1</object>
     <object>objects\obj_story</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_wall_l</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_tp</object>
     <object>objects\obj_grunt</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
+    <room>rooms\rm_up1</room>
     <room>rooms\rm_end</room>
     <room>rooms\rm_pause</room>
     <room>rooms\rm_tst</room>

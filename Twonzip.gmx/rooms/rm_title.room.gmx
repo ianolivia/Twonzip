@@ -66,7 +66,7 @@
     <instance objName="obj_wall" x="352" y="1408" name="inst_68FB91EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="1376" name="inst_311A6992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="1344" name="inst_7653D633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_title" x="448" y="416" name="inst_82EEFDEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_title" x="608" y="416" name="inst_82EEFDEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tle_title" x="256" y="160" w="32" h="32" xo="32" yo="0" id="10000037" name="inst_389C0CF8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
