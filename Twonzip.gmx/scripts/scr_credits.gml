@@ -1,6 +1,6 @@
 show_message ("HAI")
 show_message ("THESE ARE CREDITS OR SOMETHING")
-show_message ("THE WONDERFUL MUSIC WAS MADE USING CGMUSIC")
+show_message ("SOM O TEH WONDERFUL MUSIC WAS MADE USING CGMUSIC")
 show_message ("CRAPPY CODING BY CHARLIE")
 show_message ("I WILL STOP INTERUPTING U NAO")
 show_message ("U MAY PLAY UR GAEM NAO")

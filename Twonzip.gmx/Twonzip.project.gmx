@@ -3,11 +3,33 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>1.644</name>
+      <exists>-1</exists>
+      <size>524119</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>1.644</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\Remembering_Confidence</sound>
+    <sound>sound\snd_remembering_confidence</sound>
     <sound>sound\snd_intro</sound>
     <sound>sound\snd_lul</sound>
+    <sound>sound\snd_grunt1</sound>
+    <sound>sound\snd_grunt2</sound>
+    <sound>sound\snd_grunt3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char_temp</sprite>
@@ -18,7 +40,8 @@
     <sprite>sprites\spr_twon</sprite>
     <sprite>sprites\spr_twon_bigeye_down</sprite>
     <sprite>sprites\spr_twon_down</sprite>
-    <sprite>sprites\spr_twon2</sprite>
+    <sprite>sprites\spr_twon_l</sprite>
+    <sprite>sprites\spr_twon_r</sprite>
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\r5</sprite>
     <sprite>sprites\spr_bartman</sprite>
@@ -28,19 +51,27 @@
     <background>background\tle_font</background>
     <background>background\bg_temp</background>
     <background>background\bg_pause</background>
+    <background>background\tle_title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_credits.gml</script>
     <script>scripts\scr_cheat.gml</script>
     <script>scripts\scr_pause.gml</script>
+    <script>scripts\scr_grunt.gml</script>
+    <script>scripts\scr_next_rm.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ft_atari_raster</font>
   </fonts>
   <objects name="objects">
+    <objects name="rm_change">
+      <object>objects\obj_next_rm</object>
+      <object>objects\obj_prev_rm</object>
+    </objects>
     <object>objects\obj_char</object>
     <object>objects\obj_twon</object>
+    <object>objects\obj_title</object>
     <object>objects\obj_lava</object>
     <object>objects\obj_goal2</object>
     <object>objects\obj_sndtst</object>
@@ -48,15 +79,20 @@
     <object>objects\obj_text_tut1</object>
     <object>objects\obj_story</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_rm2</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_grunt</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_title</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
     <room>rooms\rm_end</room>
     <room>rooms\rm_pause</room>
     <room>rooms\rm_tst</room>
     <room>rooms\rm_1_new</room>
+    <room>rooms\rm_grunt</room>
+    <room>rooms\rm_temp</room>
+    <room>rooms\rm_title_unfin</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
