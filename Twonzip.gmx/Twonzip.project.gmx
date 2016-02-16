@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="1" name="datafiles">
+  <datafiles number="4" name="datafiles">
     <datafile>
       <name>1.644</name>
       <exists>-1</exists>
@@ -24,12 +24,14 @@
   </datafiles>
   <NewExtensions/>
   <sounds name="sound">
+    <sounds name="grunt">
+      <sound>sound\snd_grunt1</sound>
+      <sound>sound\snd_grunt2</sound>
+      <sound>sound\snd_grunt3</sound>
+    </sounds>
     <sound>sound\snd_remembering_confidence</sound>
     <sound>sound\snd_intro</sound>
     <sound>sound\snd_lul</sound>
-    <sound>sound\snd_grunt1</sound>
-    <sound>sound\snd_grunt2</sound>
-    <sound>sound\snd_grunt3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char_temp</sprite>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_remembering_confidence</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -290,7 +290,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_remembering_confidence</sound>
           </argument>
           <argument>
             <kind>3</kind>
