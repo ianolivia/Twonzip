@@ -142,7 +142,7 @@ x += 9
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_speed = 70;
+            <string>room_speed = 125;
 // ROLLING AROUND AT THE SPEED OF SOUND
 // GOT PLACES TO GO GOT TO FOLLOW MY RAINBOW
 // CANT STICK AROUND HAVE TO KEEP MOVING ON
@@ -169,7 +169,7 @@ x += 9
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_speed = 30;
+            <string>room_speed = 60;
 </string>
           </argument>
         </arguments>

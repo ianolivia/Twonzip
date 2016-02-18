@@ -39,11 +39,14 @@
     <sprite>sprites\spr_twon_unfinished</sprite>
     <sprite>sprites\spr_twon_up</sprite>
     <sprite>sprites\spr_twon_bigeye</sprite>
-    <sprite>sprites\spr_twon</sprite>
     <sprite>sprites\spr_twon_bigeye_down</sprite>
     <sprite>sprites\spr_twon_down</sprite>
-    <sprite>sprites\spr_twon_l</sprite>
-    <sprite>sprites\spr_twon_r</sprite>
+    <sprites name="twon">
+      <sprite>sprites\spr_twon_l</sprite>
+      <sprite>sprites\spr_twon_r</sprite>
+      <sprite>sprites\spr_twon_r_walk</sprite>
+      <sprite>sprites\spr_twon_l_walk</sprite>
+    </sprites>
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\r5</sprite>
     <sprite>sprites\spr_bartman</sprite>
