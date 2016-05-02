@@ -30,11 +30,12 @@
       <sound>sound\snd_grunt3</sound>
     </sounds>
     <sound>sound\snd_secret_credits</sound>
-    <sound>sound\snd_remembering_confidence</sound>
-    <sound>sound\snd_intro</sound>
-    <sound>sound\snd_lul</sound>
-    <sound>sound\snd_dtmf</sound>
+    <sound>sound\mus_remembering_confidence</sound>
+    <sound>sound\mus_intro</sound>
+    <sound>sound\mus_lul</sound>
+    <sound>sound\mus_dtmf</sound>
     <sound>sound\snd_whoops</sound>
+    <sound>sound\mus_gameover</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char_temp</sprite>
@@ -86,13 +87,16 @@
     <objects name="walls">
       <object>objects\obj_wall</object>
       <object>objects\obj_door</object>
+      <object>objects\obj_door_blank</object>
       <object>objects\obj_ceiling</object>
       <object>objects\obj_tp</object>
       <object>objects\obj_wall_l</object>
     </objects>
     <objects name="txt">
+      <object>objects\object18</object>
       <object>objects\obj_text_tut1</object>
       <object>objects\obj_story</object>
+      <object>objects\obj_txt_tut2</object>
     </objects>
     <object>objects\obj_char</object>
     <object>objects\obj_twon</object>
@@ -106,11 +110,11 @@
     <room>rooms\rm_title</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
-    <room>rooms\rm_up1</room>
     <room>rooms\rm_end</room>
     <room>rooms\rm_pause</room>
     <rooms name="unused">
       <room>rooms\rm_tst</room>
+      <room>rooms\rm_up1</room>
       <room>rooms\rm_1_new</room>
       <room>rooms\rm_temp</room>
       <room>rooms\rm_grunt</room>
