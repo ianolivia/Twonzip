@@ -39,11 +39,12 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char_temp</sprite>
-    <sprite>sprites\spr_alienshipthing</sprite>
+    <sprite>sprites\spr_ship</sprite>
     <sprite>sprites\spr_twon_unfinished</sprite>
     <sprite>sprites\spr_twon_up</sprite>
     <sprite>sprites\spr_twon_bigeye</sprite>
     <sprite>sprites\spr_twon_bigeye_down</sprite>
+    <sprite>sprites\spr_blood_puddle</sprite>
     <sprite>sprites\spr_twon_down</sprite>
     <sprites name="twon">
       <sprite>sprites\spr_twon_l</sprite>
@@ -66,7 +67,9 @@
     <background>background\bg_pause</background>
     <background>background\tle_title</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pa_ship_tut</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_credits.gml</script>
     <script>scripts\scr_cheat.gml</script>
@@ -93,33 +96,33 @@
       <object>objects\obj_wall_l</object>
     </objects>
     <objects name="txt">
-      <object>objects\object18</object>
       <object>objects\obj_text_tut1</object>
+      <object>objects\obj_text_tut2</object>
       <object>objects\obj_story</object>
-      <object>objects\obj_txt_tut2</object>
+    </objects>
+    <objects name="sav">
+      <object>objects\obj_sav_start</object>
     </objects>
     <object>objects\obj_char</object>
+    <object>objects\obj_ship_tut</object>
     <object>objects\obj_twon</object>
     <object>objects\obj_title</object>
     <object>objects\obj_lava</object>
     <object>objects\obj_sndtst</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_grunt</object>
+    <object>objects\obj_dedtwon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
-    <room>rooms\rm_1</room>
-    <room>rooms\rm_2</room>
-    <room>rooms\rm_end</room>
-    <room>rooms\rm_pause</room>
-    <rooms name="unused">
-      <room>rooms\rm_tst</room>
-      <room>rooms\rm_up1</room>
-      <room>rooms\rm_1_new</room>
-      <room>rooms\rm_temp</room>
-      <room>rooms\rm_grunt</room>
-      <room>rooms\rm_title_unfin</room>
+    <rooms name="tut">
+      <room>rooms\rm_1</room>
+      <room>rooms\rm_2</room>
     </rooms>
+    <room>rooms\rm_end</room>
+    <room>rooms\rm_temp</room>
+    <room>rooms\rm_pause</room>
+    <room>rooms\rm_tst</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

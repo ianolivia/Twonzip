@@ -247,7 +247,6 @@
     <instance objName="obj_door_blank" x="1344" y="1056" name="inst_30609319" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_blank" x="1376" y="1056" name="inst_507F9D10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_blank" x="1408" y="1056" name="inst_91D1335E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_txt_tut2" x="96" y="192" name="inst_BBEA0406" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
