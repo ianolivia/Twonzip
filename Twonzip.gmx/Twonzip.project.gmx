@@ -36,6 +36,7 @@
     <sound>sound\mus_dtmf</sound>
     <sound>sound\snd_whoops</sound>
     <sound>sound\mus_gameover</sound>
+    <sound>sound\mus_tut</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char_temp</sprite>
@@ -60,12 +61,15 @@
     <sprite>sprites\spr_txt</sprite>
     <sprite>sprites\spr_cheat</sprite>
     <sprite>sprites\spr_dumbell</sprite>
+    <sprite>sprites\spr_ashes</sprite>
+    <sprite>sprites\sprite21</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tle_font</background>
     <background>background\bg_temp</background>
     <background>background\bg_pause</background>
     <background>background\tle_title</background>
+    <background>background\bg_dead</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pa_ship_tut</path>
@@ -101,7 +105,7 @@
       <object>objects\obj_story</object>
     </objects>
     <objects name="sav">
-      <object>objects\obj_sav_start</object>
+      <object>objects\obj_autosave</object>
     </objects>
     <object>objects\obj_char</object>
     <object>objects\obj_ship_tut</object>
@@ -112,6 +116,7 @@
     <object>objects\obj_pause</object>
     <object>objects\obj_grunt</object>
     <object>objects\obj_dedtwon</object>
+    <object>objects\obj_ashes</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
