@@ -30,7 +30,6 @@
       <sound>sound\snd_grunt3</sound>
     </sounds>
     <sound>sound\snd_secret_credits</sound>
-    <sound>sound\mus_remembering_confidence</sound>
     <sound>sound\mus_intro</sound>
     <sound>sound\mus_lul</sound>
     <sound>sound\mus_dtmf</sound>
@@ -75,11 +74,9 @@
     <path>paths\pa_ship_tut</path>
   </paths>
   <scripts name="scripts">
-    <script>scripts\scr_credits.gml</script>
     <script>scripts\scr_cheat.gml</script>
     <script>scripts\scr_pause.gml</script>
     <script>scripts\scr_grunt.gml</script>
-    <script>scripts\scr_rm_transit.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ft_atari_raster</font>
@@ -87,7 +84,6 @@
   <objects name="objects">
     <objects name="rm_change">
       <object>objects\obj_next_rm</object>
-      <object>objects\obj_up1</object>
       <object>objects\obj_goal2</object>
       <object>objects\obj_prev_rm</object>
     </objects>
@@ -104,17 +100,13 @@
       <object>objects\obj_text_tut2</object>
       <object>objects\obj_story</object>
     </objects>
-    <objects name="sav">
-      <object>objects\obj_autosave</object>
-    </objects>
     <object>objects\obj_char</object>
+    <object>objects\obj_autosave</object>
     <object>objects\obj_ship_tut</object>
     <object>objects\obj_twon</object>
     <object>objects\obj_title</object>
     <object>objects\obj_lava</object>
-    <object>objects\obj_sndtst</object>
     <object>objects\obj_pause</object>
-    <object>objects\obj_grunt</object>
     <object>objects\obj_dedtwon</object>
     <object>objects\obj_ashes</object>
   </objects>
@@ -123,9 +115,10 @@
     <rooms name="tut">
       <room>rooms\rm_1</room>
       <room>rooms\rm_2</room>
+      <room>rooms\rm_3</room>
     </rooms>
-    <room>rooms\rm_end</room>
     <room>rooms\rm_temp</room>
+    <room>rooms\rm_end</room>
     <room>rooms\rm_pause</room>
     <room>rooms\rm_tst</room>
   </rooms>

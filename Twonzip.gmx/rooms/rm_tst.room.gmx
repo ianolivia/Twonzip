@@ -57,7 +57,6 @@
     <instance objName="obj_twon" x="352" y="384" name="inst_821DCCC7" locked="0" code="" scaleX="0" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_twon" x="576" y="160" name="inst_6193C69D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_goal2" x="224" y="64" name="inst_6A7BAE16" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sndtst" x="0" y="0" name="inst_936F3C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
